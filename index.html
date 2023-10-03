@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="dist/main.js" defer></script>
+    <title>Techup Landing Page</title>
+</head>
+<body class="bg-slate-800">
+    <div class="w-full h-20 p-5 flex flex-row justify-center">
+        <div class="w-1/2 md:w-1/4 pl-1 md:pl-5">
+            <img src="src/img/logo.svg" />
+        </div>
+        <div class="w-full font-lora hidden md:block text-gray-100">
+            <ul class="flex flex-row justify-center uppercase" id="nav">
+                <a href="#" class="flex items-center flex-col">
+                    <li class="p-5">Home</li>
+                    <div class="hidden -my-4 w-2 h-2 rounded-full bg-orange-300 nav-item">
+                    </div>
+                </a>
+                <a href="#about" class="flex items-center flex-col">
+                    <li class="p-5">About</li>
+                    <div class="hidden -my-4 w-2 h-2 rounded-full bg-orange-300 nav-item">
+                    </div>
+                </a>
+                <a href="#menu" class="flex items-center flex-col">
+                    <li class="p-5">Menu</li>
+                    <div class="hidden -my-4 w-2 h-2 rounded-full bg-orange-300 nav-item">
+                    </div>
+                </a>
+                <a href="#contact" class="flex items-center flex-col">
+                    <li class="p-5">Contact</li>
+                    <div class=" hidden -my-4 w-2 h-2 rounded-full bg-orange-300 nav-item">
+                    </div>
+                </a>
+            </ul>
+        </div>
+        <div class="w-1/2 md:hidden flex items-end justify-end px-5 my-3">
+            <img src="src/img/menu.svg" class="w-12 h-12 my-auto"/>
+        </div>
+        <div class="w-1/4 hidden md:block"></div>
+    </div>
+    <div class="max-h-full w-full flex flex-col my-10 md:my-2 md:flex-row items-center">
+        <div class="w-full h-auto">
+            <h1 class="text-4xl font-bold font-lora md:text-8xl h-auto py-10 text-gray-50 flex justify-center">
+                But first, <br class="hidden md:block"> food.
+            </h1>
+        </div>
+        <div class="w-full min-h-full flex justify-end object-right">
+            <img src="src/img/hero.png" class="h-auto w-full md:max-h-screen md:w-auto"/>
+        </div>
+    </div>
+    <section id="about">
+        <div class="w-auto lg:mx-20 mx-0 md:mx-8 px-5 lg:px-0 h-auto flex flex-col lg:flex-row pt-5">
+            <div class="flex flex-col w-full lg:w-7/12">
+                <h1 class="text-gray-100 text-4xl p-3 md:text-left font-lora text-center">How it started</h1>
+                <p class="text-gray-50 font-karla text-center md:text-left p-3">Welcome to our restaurant in Michigan, where we serve up delicious food with a side of warmth and hospitality. Our menu features a wide variety of dishes that are prepared using the freshest ingredients, sourced from local farmers and suppliers. Whether you're in the mood for a juicy steak, a crisp salad, or a hearty pasta dish, our chefs have got you covere
+                    At our restaurant, we pride ourselves on providing a memorable dining experience, from the moment you step through the door to the last bite of dessert. Our knowledgeable and friendly staff are always on hand to answer any questions you may have and ensure that your dining experience is nothing short of exceptional.
+                    So come on down and join us for a meal you won't forget!</p>
+            </div>
+            <div class="grid md:grid-cols-2 grid-cols-1 lg:w-5/12 w-auto content-center gap-4 p-5">
+                <div class="w-50 h-32 border-2 border-orange-300 ">
+                    <div class="p-3 w-full h-full flex flex-col">
+                        <img src="/src/img/shirt.svg" class="w-6 h-6"/>
+                        <h1 class="md:text-base lg:text-lg font-lora text-white pt-2">Title</h1>
+                        <p class="text-gray-200 pt-2 font-karla">Description</p>
+                    </div>
+                </div>
+                <div class="w-50 h-32 border-2 border-orange-300 ">
+                    <div class="p-3 w-full h-full flex flex-col">
+                        <img src="/src/img/book.svg" class="w-6 h-6"/>
+                        <h1 class="text-lg text-white pt-2 font-lora">Title</h1>
+                        <p class="text-gray-200 pt-2 font-karla">Description</p>
+                    </div>
+                </div>
+                <div class="w-50 h-32 border-2 border-orange-300 ">
+                    <div class="p-3 w-full h-full flex flex-col">
+                        <img src="/src/img/chair.svg" class="w-6 h-6"/>
+                        <h1 class="text-lg text-white pt-2 font-lora">Title</h1>
+                        <p class="text-gray-200 pt-2 font-karla">Description</p>
+                    </div>
+                </div>
+                <div class="w-50 h-32 border-2 border-orange-300 ">
+                    <div class="p-3 w-full h-full flex flex-col">
+                        <img src="/src/img/serve.svg" class="w-6 h-6"/>
+                        <h1 class="text-lg text-white pt-2 font-lora">Title</h1>
+                        <p class="text-gray-200 pt-2 font-karla">Description</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="menu">
+        <div class="w-full md:w-3/4 mx-0 md:mx-auto h-1/2 flex flex-col">
+            <div class="text-center">
+                <h1 class="text-4xl text-white my-5 font-lora">Our Popular Menu</h1>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/3 p-5 h-auto  flex flex-col">
+                    <img src="src/img/menu1.png" />
+                    <div class="w-full my-1">
+                        <h1 class="text-white text-2xl md:text-left text-center font-bold font-lora">
+                            Michigan Cherry salad
+                        </h1>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-5 h-auto  flex flex-col">
+                    <img src="src/img/menu2.png" />
+                    <div class="w-full my-1">
+
+                        <h1 class="text-white text-2xl md:text-left text-center font-bold font-lora">
+                            Great Lakes Fish and Chips
+                        </h1>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-5 h-auto flex flex-col">
+                    <img src="src/img/menu3.png" />
+                    <div class="w-full my-1">
+                        <h1 class="text-white text-2xl md:text-left text-center font-bold font-lora">
+                            Detroit-style Pizza
+                        </h1>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="w-auto mx-auto h-auto text-center my-10">
+        <a href="#" class="px-10 py-3 hover:bg-orange-300 hover:text-slate-800 text-white mx-auto border-2 hover:shadow-lg transition border-orange-300">Get Directions</a>
+    </div>
+    <div class="w-full h-auto flex flex-col lg:flex-row">
+        <div class="w-full h-72" style="background-image: url(src/img/workin.png); background-repeat: no-repeat; background-size:cover;">
+            <div class="w-full h-full bg-gradient-to-r from-slate-800 to-slate-800/50 flex justify-center items-center">
+                <h1 class="text-3xl md:text-6xl text-orange-300 font-bold font-lora">Working Hours</h1>
+            </div>
+        </div>
+        <div class="bg-gray-800 w-full flex justify-center items-center py-5 lg:py-0 shadow-lg">
+            <div class="flex flex-col lg:flex-row">
+                <div class="flex flex-col mb-5 lg:mb-0 lg:mr-5 items-center gap-4">
+                    <h1 class="text-xl uppercase font-karla text-white">Monday to Friday</h1>
+                    <p class="font-bold text-2xl font-lora text-white">08:00 AM</p>
+                    <p class="font-bold text-2xl font-lora text-white">03:00 PM</p>
+                </div>
+                <div class="flex flex-col text-center items-center gap-4">
+                    <h1 class="text-xl uppercase font-karla text-white">Saturday</h1>
+                    <p class="font-bold text-2xl font-lora text-white">08:00 AM</p>
+                    <p class="font-bold text-2xl font-lora text-white">03:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="w-full h-auto text-center my-10">
+            <h1 class="text-4xl font-lora font-bold text-white">Find us</h1>
+        </div>
+        <div class="w-full h-auto">
+            <div class="w-full h-auto flex flex-col md:flex-row">
+                <div class="w-auto mx-10 md:mx-0 md:w-3/4 h-auto">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+                </div>
+                <div class="w-full font-lora text-center md:text-left md:w-1/4 px-5 mt-5 lg:mt-0 h-auto align-top">
+                    <div class="flex flex-col">
+                        <h1 class="text-4xl align-top text-orange-300">
+                            Contact:
+                        </h1>
+                        <p class="py-5 text-white">(518)-918-1284</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <h1 class="text-4xl text-orange-300">
+                            Address:
+                        </h1>
+                        <p class="py-5 text-white">941 Main Street, Suite 201 Newport</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <h1 class="text-4xl text-orange-300">
+                            Write Us:
+                        </h1>
+                        <p class="py-5 text-white">info@goodtaste.io</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="w-full bg-gray-800 h-auto mt-10 pt-10">
+        <hr class="w-full mx-0 md:w-auto md:mx-10 text-orange-300">
+        <div class="w-auto mx-10 flex flex-col md:flex-row justify-center md:justify-between">
+            <div class="text-white text-xs text-center md:text-base font-lora py-10">© 2023 Good Taste | All rights reserved.</div>
+            <div class="items-center justify-center flex flex-row \">
+                <a href="#" class="w-6 h-6 text-orange-300 text-center mr-2.5">
+                    <img src="src/img/facebook.svg" />
+                </a>
+                <a href="#" class="w-6 h-6 text-orange-300 text-center mr-2.5">
+                    <img src="src/img/instagram.svg"/>
+                </a>
+                <a href="#" class="w-6 h-6 text-orange-300 text-center mr-2">
+                    <img src="src/img/tiktok.svg"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
